@@ -47,8 +47,8 @@ Non-code career lifecycle repository. Everything here serves two purposes: **com
 
 ## Evidence Rules
 - Screenshots go in `/_media/`
-- Every claim in reviews/impact-log should be traceable to evidence
-- 5-min weekly habit: update `reviews/impact-log.md` every Friday
+- Every claim in `report/impact-log.md` should be traceable to evidence
+- 5-min weekly habit: update `report/impact-log.md` every Friday
 
 ## Tooling
 - Folder structure: plain markdown, tool-agnostic (works in Obsidian, Notion, VS Code, etc.)

@@ -11,9 +11,11 @@ Drafts your kukuruyuk (daily all-hands standup) update. Audience is the whole co
 
 Keep it tight — all-hands audience, non-technical:
 
-> **Yesterday:** [1-2 lines of what moved forward]
-> **Today:** [1 line of priority]
-> **Blockers:** [none or 1-line ask]
+> **Thank you**
+> [Shoutout to someone who helped or did something noteworthy]
+>
+> **Progress and issue**
+> [1-2 lines: what moved forward, what's blocked]
 
 ## Workflow
 

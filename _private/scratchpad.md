@@ -6,3 +6,6 @@ Use this when you don't know if something matters yet. The impact-journal skill 
 
 ---
 
+<!-- 2026-05-18 entries promoted to report/impact-log.md -->
+
+<!-- 2026-05-18 Fifi's AJIPRO questions → answered, saved to ic-work/unowned.md -->

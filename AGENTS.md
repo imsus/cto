@@ -14,6 +14,23 @@ Non-code personal work folder. Stores everything related to career lifecycle —
 | `report/`   | Reporting pipeline: impact-log → kukuruyuk → monday checkin → shimekai → executive report |
 | `archive/`  | Historical data (h2-2025, old decks)                                                      |
 
+## Role
+
+- **Title**: CTO (also Full Stack Senior IC)
+- **Team**: 2 (me + Dewo) — the entire development team
+- **Report**: Dewo — Full Stack Senior IC
+- **Reports to**: CEO (CTO hat), PM (IC hat)
+- **Peers**: COO, Finance, Project, Sales, HR, Operations
+
+## Cadence
+
+- **Kukuruyuk**: Daily all-hands standup
+- **Daily standup**: Daily with PM (engineering only)
+- **Monday checkin**: Weekly written update, all employees
+- **Shimekai**: Quarterly all-hands townhall
+- **PA**: Every 6 months, 1:1 with CEO
+- **360 reviews**: Email-based, nominated by peers
+
 ## Available Skills (`.agents/skills/`)
 
 | Skill                      | Transform                                                      |
@@ -26,12 +43,13 @@ Non-code personal work folder. Stores everything related to career lifecycle —
 
 ## Key Terms
 
-- **KPI**: derived from company profit goals (no OKRs)
-- **PM stream**: official IC work tracked in Jira
-- **Unowned**: ad-hoc IC work (fixes, tooling, exploration)
+- **KPI**: measurable target derived from company goals (no OKRs)
+- **PM stream**: work planned and tracked with PM via Jira
+- **Unowned**: work done without a PM (fixes, tooling, exploration)
 - **Kukuruyuk**: daily all-hands standup
 - **Shimekai**: quarterly all-hands townhall
 - **PA**: semi-annual performance appraisal (1:1 with CEO)
+- **Company Goal**: top-level profit or revenue target
 
 ## Evidence Rule
 

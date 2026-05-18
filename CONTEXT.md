@@ -1,55 +1,75 @@
-# Context
+# CTO Career Lifecycle
 
-## Role
-- **Title**: CTO
-- **Reports to**: CEO
-- **IC hat reports to**: PM
-- **Team**: 2 (me + Dewo). The entire development team.
-- **Report**: Dewo — Full Stack Senior IC, reports to me
-- **Me**: Full Stack Senior IC + CTO
-- **Peers**: COO, Finance Manager, Project Manager, Sales Manager, HR, Operations Manager
+Domain language for company reporting and career protection.
 
-## Folder Purpose
-Non-code career lifecycle repository. Everything here serves two purposes: **company reporting** (what the CEO/PM needs to see) and **career protection** (paper trail of impact).
+## Language
 
-## Domains
+**Company Goal**:
+A top-level profit or revenue target set by the company.
+_Avoid_: OKR, objective
 
-| Domain      | Hat     | Primary Audience                      |
-| ----------- | ------- | ------------------------------------- |
-| `strategy/` | CTO     | CEO                                   |
-| `ic-work/`  | IC      | PM                                    |
-| `people/`   | Manager | Dewo, peers, future hires             |
-| `report/`   | Both    | Self → CEO → All employees (pipeline) |
-| `_private/` | Self    | Me only (comp, 360 feedback)          |
-| `_media/`   | Both    | Evidence for all domains              |
+**Department KPI**:
+A measurable target derived from a company goal and owned by a department.
+_Avoid_: Department goal
 
-## Company Cadence
-- **Monday checkin**: Weekly — written progress update, all employees
-- **Kukuruyuk**: Daily — all-hands standup
-- **Daily standup**: Daily — with PM (engineering only)
-- **Shimekai**: Quarterly — townhall, all employees
-- **PA cycle**: Every 6 months — 1:1 style with CEO
-- **360 reviews**: Email-based, nominated by peers
-- **Goals**: Company profit goals → KPIs (no OKRs)
+**Personal KPI**:
+An individual measurable target derived from a department KPI.
+_Avoid_: Personal goal, task
 
-## Key Terms
+**KPI**:
+A measurable target that tracks progress toward a goal.
+_Avoid_: OKR, metric, goal
 
-| Term                 | Meaning                                                      |
-| -------------------- | ------------------------------------------------------------ |
-| KPI                  | Key Performance Indicator, derived from company profit goals |
-| PM stream            | Official IC work tracked with PM (Jira)                      |
-| Unowned              | Ad-hoc IC work (fixes, tooling, exploration, no PM)          |
-| Impact               | Concrete outcome tied to a KPI or company goal               |
-| PA                   | Performance Appraisal                                        |
-| Kukuruyuk            | Daily all-hands standup (Indonesian: rooster crow)           |
-| Shimekai             | Quarterly all-hands townhall (Japanese: 締め会)              |
-| Staff of the Quarter | Nomination-based award (noted in impact-log if won)          |
+**PM Stream**:
+Work planned and tracked with the PM through Jira.
+_Avoid_: Official work, assigned work
 
-## Evidence Rules
-- Screenshots go in `/_media/`
-- Every claim in `report/impact-log.md` should be traceable to evidence
-- 5-min weekly habit: update `report/impact-log.md` every Friday
+**Unowned**:
+Work done without a PM or Jira ticket. Fixes, tooling, exploration.
+_Avoid_: Side work, ad-hoc
 
-## Tooling
-- Folder structure: plain markdown, tool-agnostic (works in Obsidian, Notion, VS Code, etc.)
-- Screenshots stored locally in `/_media/` (not in markdown files)
+**Impact**:
+A concrete outcome tied to a company goal or KPI.
+_Avoid_: Activity, output
+
+**PA (Performance Appraisal)**:
+A 1:1 review between me and the CEO, every 6 months.
+_Avoid_: Performance review, 360
+
+**Staff of the Quarter**:
+A nomination-based award presented during Shimekai.
+_Avoid_: Employee of the month
+
+**Kukuruyuk**:
+Daily all-hands standup update.
+_Avoid_: Standup, daily update
+
+**Shimekai**:
+Quarterly all-hands townhall.
+_Avoid_: All-hands, QBR
+
+**Monday Checkin**:
+Weekly written progress update shared with all employees.
+_Avoid_: Weekly report, status update
+
+## Relationships
+
+- A **Company Goal** produces one or more **Department KPIs**
+- A **Department KPI** produces one or more **Personal KPIs**
+- Work starts as **Unowned** or as a **PM Stream** (mutually exclusive)
+- **Unowned** work may be promoted to a **PM Stream** when the PM discovers it and adds it to Jira
+- An **Impact** is a claim that a piece of work moved a **KPI** or **Company Goal**
+
+## Example dialogue
+
+> **Dev asking:** "I fixed a prod bug this morning — is that **Unowned** or a **PM Stream**?"
+> **You:** "Unowned — no Jira ticket yet. If the **PM** picks it up for tracking, it becomes a **PM Stream**."
+>
+> **Dev asking:** "I shipped a dashboard feature that saved the company $5k/mo in support costs. Is that **Impact**?"
+> **You:** "If we can trace it to a **Company Goal** (like 'reduce support cost 20%'), yes. Otherwise it's output, not **Impact**."
+
+## Flagged ambiguities
+
+- "Goal" was used interchangeably with "KPI" — resolved: **Company Goals** are profit/revenue targets; **KPIs** are the measurable targets derived from them
+- "OKR" was mentioned but rejected — the company uses **Company Goals → KPIs**, not OKRs
+- "Standup" was used for both **Kukuruyuk** (all-hands) and the engineering daily with the **PM** — resolved: these are separate meetings with different audiences

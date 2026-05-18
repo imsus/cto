@@ -68,6 +68,15 @@ _Avoid_: Weekly report, status update
 > **Dev asking:** "I shipped a dashboard feature that saved the company $5k/mo in support costs. Is that **Impact**?"
 > **You:** "If we can trace it to a **Company Goal** (like 'reduce support cost 20%'), yes. Otherwise it's output, not **Impact**."
 
+## People
+
+| Name | Role | Context |
+|------|------|---------|
+| Dewo | Direct report | Full Stack Senior IC |
+| EL | COO | Cross-functional peer, recently built first AI app |
+| Fifi | Project Manager | Handles AJIPRO microsite kick-off and project coordination |
+| Melin | (staff) | Anniversary committee / event organizer |
+
 ## Flagged ambiguities
 
 - "Goal" was used interchangeably with "KPI" — resolved: **Company Goals** are profit/revenue targets; **KPIs** are the measurable targets derived from them

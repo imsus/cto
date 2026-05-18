@@ -70,25 +70,25 @@ _Avoid_: Weekly report, status update
 
 ## Departments
 
-| Code | Name |
-|------|------|
-| Dev | Development (CTO here) |
-| PP | Project Planner (campaign-level project management) |
-| KOL | Key Opinion Leader (influencer campaigns) |
-| Inquiry | KOL database, collector, nurture team |
-| Sales | Sales |
-| HR | Human Resources |
-| Finance | Finance |
-| Executive | CEO / COO |
+| Code      | Name                                                |
+| --------- | --------------------------------------------------- |
+| Dev       | Development (CTO here)                              |
+| PP        | Project Planner (campaign-level project management) |
+| KOL       | Key Opinion Leader (influencer campaigns)           |
+| Inquiry   | KOL database, collector, nurture team               |
+| Sales     | Sales                                               |
+| HR        | Human Resources                                     |
+| Finance   | Finance                                             |
+| Executive | CEO / COO                                           |
 
 ## People
 
-| Name | Role | Context |
-|------|------|---------|
-| Dewo | Direct report | Full Stack Senior IC |
-| EL | COO | Cross-functional peer, recently built first AI app |
-| Fifi | PP (Project Planner) | Handles AJIPRO microsite kick-off and project coordination |
-| Melin | (staff) | Anniversary committee / event organizer |
+| Name  | Role                 | Context                                                    |
+| ----- | -------------------- | ---------------------------------------------------------- |
+| Dewo  | Direct report        | Full Stack Senior IC                                       |
+| EL    | COO                  | Cross-functional peer, recently built first AI app         |
+| Fifi  | PP (Project Planner) | Handles AJIPRO microsite kick-off and project coordination |
+| Melin | KOL (staf)           | Also served as temporary Shimekai event staff (rolling)    |
 
 ## Flagged ambiguities
 

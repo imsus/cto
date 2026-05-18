@@ -4,15 +4,15 @@ Personal work folder for company reporting and career protection.
 
 ## Structure
 
-| Folder | Purpose |
-|--------|---------|
-| `strategy/` | KPIs, roadmap, budget, leadership notes (CEO-facing) |
-| `ic-work/` | PM-tracked projects + ad-hoc IC work |
-| `people/` | Dewo's 1:1s & growth, peer sync notes |
-| `report/` | Reporting pipeline: impact-log → daily → weekly → quarterly → semi-annual |
-| `_private/` | Comp docs, raw 360 feedback (me only) |
-| `_media/` | Screenshots, evidence for all claims |
-| `archive/` | Historical data |
+| Folder      | Purpose                                                                   |
+| ----------- | ------------------------------------------------------------------------- |
+| `strategy/` | KPIs, roadmap, budget, leadership notes (CEO-facing)                      |
+| `ic-work/`  | PM-tracked projects + ad-hoc IC work                                      |
+| `people/`   | Dewo's 1:1s & growth, peer sync notes                                     |
+| `report/`   | Reporting pipeline: impact-log → daily → weekly → quarterly → semi-annual |
+| `_private/` | Comp docs, raw 360 feedback (me only)                                     |
+| `_media/`   | Screenshots, evidence for all claims                                      |
+| `archive/`  | Historical data                                                           |
 
 ## Reporting Pipeline
 

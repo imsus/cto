@@ -7,7 +7,7 @@ Non-code personal work folder. Stores everything related to career lifecycle —
 | Path        | Contents                                                                                  |
 | ----------- | ----------------------------------------------------------------------------------------- |
 | `_media/`   | Screenshots, evidence for all claims                                                      |
-| `_private/` | Comp docs, raw 360 feedback, scratchpad (me only)                                        |
+| `_private/` | Comp docs, raw 360 feedback, scratchpad (me only)                                         |
 | `strategy/` | KPIs, roadmap, budget, leadership notes (CEO-facing)                                      |
 | `ic-work/`  | PM-tracked projects + ad-hoc IC work (PM-facing)                                          |
 | `people/`   | Dewo's 1:1s & growth, peer sync notes                                                     |

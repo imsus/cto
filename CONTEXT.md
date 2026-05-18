@@ -68,13 +68,26 @@ _Avoid_: Weekly report, status update
 > **Dev asking:** "I shipped a dashboard feature that saved the company $5k/mo in support costs. Is that **Impact**?"
 > **You:** "If we can trace it to a **Company Goal** (like 'reduce support cost 20%'), yes. Otherwise it's output, not **Impact**."
 
+## Departments
+
+| Code | Name |
+|------|------|
+| Dev | Development (CTO here) |
+| PP | Project Planner (campaign-level project management) |
+| KOL | Key Opinion Leader (influencer campaigns) |
+| Inquiry | KOL database, collector, nurture team |
+| Sales | Sales |
+| HR | Human Resources |
+| Finance | Finance |
+| Executive | CEO / COO |
+
 ## People
 
 | Name | Role | Context |
 |------|------|---------|
 | Dewo | Direct report | Full Stack Senior IC |
 | EL | COO | Cross-functional peer, recently built first AI app |
-| Fifi | Project Manager | Handles AJIPRO microsite kick-off and project coordination |
+| Fifi | PP (Project Planner) | Handles AJIPRO microsite kick-off and project coordination |
 | Melin | (staff) | Anniversary committee / event organizer |
 
 ## Flagged ambiguities

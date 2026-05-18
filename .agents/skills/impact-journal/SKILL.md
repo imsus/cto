@@ -5,11 +5,24 @@ description: Transform raw thoughts, meeting notes, or journal entries into stru
 
 # Impact Journal
 
-Transforms raw input into `report/impact-log.md` entries.
+Transforms raw unfiltered input into curated `report/impact-log.md` entries.
 
-## Input Types
+## Data Flow
+
+```
+_private/scratchpad.md (raw dump, no format)
+  ↓
+impact-journal skill (YOU select signal)
+  ↓
+report/impact-log.md (curated, evidence-backed)
+  ↓
+rest of pipeline
+```
+
+## Input Sources
 
 Accepts any of:
+- `_private/scratchpad.md` — read automatically if it exists (prompt user to confirm which entries to promote)
 - Raw bullet points ("shipped dashboard api, got it working, dewos pr reviewed")
 - Meeting takeaways
 - Answers to questions (the skill asks guiding questions if no input given)
@@ -28,10 +41,12 @@ Each entry follows this structure when written to `report/impact-log.md`:
 
 ## Workflow
 
-1. Read `report/impact-log.md` if it exists (don't duplicate entries)
-2. Ask clarifying questions if input is too vague to produce a concrete entry
-3. Append formatted entries to `report/impact-log.md`
-4. If screenshots are relevant, remind user to save them to `_media/` and reference the filename
+1. Check `_private/scratchpad.md` for raw entries — ask user which to promote, skip noise
+2. Read `report/impact-log.md` if it exists (don't duplicate entries)
+3. Ask clarifying questions if input is too vague to produce a concrete entry
+4. Append formatted entries to `report/impact-log.md`
+5. If screenshots are relevant, remind user to save them to `_media/` and reference the filename
+6. Optionally clear processed entries from `_private/scratchpad.md`
 
 ## Guiding Questions (use when user has no raw notes)
 

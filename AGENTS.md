@@ -12,7 +12,6 @@ Non-code personal work folder. Stores everything related to career lifecycle —
 | `ic-work/`  | PM-tracked projects + ad-hoc IC work (PM-facing)                                          |
 | `people/`   | Dewo's 1:1s & growth, peer sync notes                                                     |
 | `report/`   | Reporting pipeline: impact-log → kukuruyuk → monday checkin → shimekai → executive report |
-| `archive/`  | Historical data (h2-2025, old decks)                                                      |
 
 ## Role
 

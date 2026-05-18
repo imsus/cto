@@ -12,7 +12,6 @@ Personal work folder for company reporting and career protection.
 | `report/`   | Reporting pipeline: impact-log → daily → weekly → quarterly → semi-annual |
 | `_private/` | Comp docs, raw 360 feedback (me only)                                     |
 | `_media/`   | Screenshots, evidence for all claims                                      |
-| `archive/`  | Historical data                                                           |
 
 ## Reporting Pipeline
 

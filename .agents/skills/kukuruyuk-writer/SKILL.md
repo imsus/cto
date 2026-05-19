@@ -19,7 +19,7 @@ Keep it tight — all-hands audience, non-technical:
 
 ## Workflow
 
-1. Read `report/impact-log.md` for recent entries (last 1-2 days)
+1. Read `report/impact-log.md` for entries under today's `## YYYY-MM-DD` header
 2. Read the last 2-3 kukuruyuk entries from `report/kukuruyuk-recaps/` (avoid repeating)
 3. Ask what you're working on today if not obvious from context
 4. Translate engineering work into business impact — don't say "refactored API client", say "reduced checkout errors"

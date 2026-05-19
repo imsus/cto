@@ -33,7 +33,7 @@ Accepts any of:
 Each entry follows this structure when written to `report/impact-log.md`:
 
 ```markdown
-## 2026-W## (Mon-Sun)
+## YYYY-MM-DD
 - Shipped <thing> → <outcome>
 - <decision> — <rationale>
 - <evidence available>
@@ -50,9 +50,9 @@ Each entry follows this structure when written to `report/impact-log.md`:
 
 ## Guiding Questions (use when user has no raw notes)
 
-- What did you ship or finish this week?
+- What did you ship or finish today?
 - Did you make any decision that saved time/money or prevented a problem?
-- Did you unblock anyone?
+- Did you unblock anyone today?
 - Did you learn something that changes how you work?
 
 ## Related Skills

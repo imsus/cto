@@ -6,6 +6,9 @@ Use this when you don't know if something matters yet. The impact-journal skill 
 
 ---
 
-<!-- 2026-05-18 entries promoted to report/impact-log.md -->
+tomorrow plan (2026-05-20)
+- meeting with viola + vilda regarding new cms update, timeline on announcing until transition of new system
+- kick off ajinomoto pro meeting
 
-<!-- 2026-05-18 Fifi's AJIPRO questions → answered, saved to ic-work/unowned.md -->
+someday:
+- updating hris data based on employee database structure from rizki (hr)
